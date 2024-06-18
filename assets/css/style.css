@@ -414,3 +414,133 @@ a {
 .feature__cta {
     margin-top: 38px;
 }
+
+/* Member */
+.member {
+    margin-top: 170px;
+    text-align: center;
+}
+
+.member__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member__cta {
+    margin-top: 36px;
+}
+
+.member__list {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+}
+
+.member-item__img-bg {
+    padding-top: 28px;
+    background: #eaf6ff;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.member-item__thumb {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    height: 290px;
+    transition: 0.25s;
+}
+
+.member-item__name {
+    margin-top: 12px;
+    color: #10375c;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.75; /* 175% */
+}
+
+.member-item__title {
+    color: #575f66;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.86; /* 185.714% */
+}
+
+.member__control {
+    display: flex;
+    justify-content: center;
+    margin-top: 38px;
+    column-gap: 18px;
+}
+
+.member__control-btn {
+    width: 36px;
+    height: 36px;
+    outline: none;
+    border: 1px solid #575f66;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    color: #575f66;
+    justify-content: center;
+    transform: 0.25s;
+    cursor: pointer;
+}
+
+.member__control-btn:hover {
+    border-color: #2e80ce;
+    background: #2e80ce;
+    color: #fff;
+}
+
+.member__control-next-icon {
+    rotate: 180deg;
+}
+
+.member-item:hover .member-item__thumb {
+    transform: scale(1.1);
+}
+
+/* Install */
+.install {
+    margin-top: 265px;
+}
+
+.install__inner {
+    padding: 0 70px;
+    border-radius: 4px;
+    background: #2e80ce;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.install__img {
+    width: 284px;
+    height: 522px;
+    object-fit: cover;
+    margin-top: -95px;
+    display: block;
+}
+
+.install__content {
+    max-width: 586px;
+}
+
+.install__heading,
+.install__desc {
+    color: #fff;
+}
+
+.install__heading {
+    max-width: 489px;
+}
+
+.install__row {
+    margin-top: 38px;
+    display: flex;
+    column-gap: 28px;
+}
